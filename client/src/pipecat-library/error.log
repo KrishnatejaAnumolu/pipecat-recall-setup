@@ -1,0 +1,23 @@
+Transport state changed to: initializing
+VM562:4 Chrome Report: [deprecation] XMLHttpRequestSynchronousInNonWorkerOutsideBeforeUnload
+value @ VM562:4
+value @ VM562:4
+K @ VM562:4
+ReportingObserver.buffered @ VM562:4
+page.js:65 [libwebbot:INFO] media-output getUserMedia called with constraints: {"audio":{},"video":false}
+page.js:65 [libwebbot:INFO] media-output getUserMedia resolved
+SmallWebRTC.tsx?t=1760645992895:189 Transport state changed to: initialized
+chunk-CN3MVVI2.js?v=e610f745:3005 connectionUrl is deprecated. Use webrtcRequestParams instead.
+warn @ chunk-CN3MVVI2.js?v=e610f745:3005
+_resolveRequestInfo @ @pipecat-ai_small-webrtc-transport.js?v=e610f745:11059
+_validateConnectionParams @ @pipecat-ai_small-webrtc-transport.js?v=e610f745:11090
+connect @ chunk-CN3MVVI2.js?v=e610f745:3151
+(anonymous) @ chunk-CN3MVVI2.js?v=e610f745:3479
+SmallWebRTC.tsx?t=1760645992895:189 Transport state changed to: connecting
+nonflowering-kellie-…d.ngrok-free.dev/:1 Uncaught (in promise) DOMException: Requested device not found
+page.js:171 INFO: Tried to stop track MediaStreamTrack {_dailyConstraints: {…}, _managedByDaily: true, _mediaTag: 'cam-audio', stop: ƒ, applyConstraints: ƒ, …}_dailyConstraints: {}_managedByDaily: true_mediaTag: "cam-audio"applyConstraints: async ƒ (constraints)clone: ƒ ()stop: async ƒ ()contentHint: ""enabled: trueid: "dec29e26-d171-4352-b58a-09d0209b70b1"kind: "audio"label: "4c323c4c-2999-4f09-a9a2-b6abbc248587"muted: falseoncapturehandlechange: nullonended: ƒ (Q)onmute: ƒ ()onunmute: ƒ ()readyState: "live"[[Prototype]]: MediaStreamTrack
+page.js:171 INFO: Tried to stop track MediaStreamTrack {_dailyConstraints: {…}, _managedByDaily: true, _mediaTag: 'cam-audio', stop: ƒ, applyConstraints: ƒ, …}_dailyConstraints: {}_managedByDaily: true_mediaTag: "cam-audio"applyConstraints: async ƒ (constraints)clone: ƒ ()stop: async ƒ ()contentHint: ""enabled: trueid: "dec29e26-d171-4352-b58a-09d0209b70b1"kind: "audio"label: "4c323c4c-2999-4f09-a9a2-b6abbc248587"muted: falseoncapturehandlechange: nullonended: ƒ (Q)onmute: ƒ ()onunmute: ƒ ()readyState: "live"[[Prototype]]: MediaStreamTrack
+page.js:171 INFO: Tried to stop track MediaStreamTrack {_dailyConstraints: {…}, _managedByDaily: true, _mediaTag: 'cam-audio', stop: ƒ, applyConstraints: ƒ, …}
+page.js:171 INFO: Tried to stop track MediaStreamTrack {_dailyConstraints: {…}, _managedByDaily: true, _mediaTag: 'cam-audio', stop: ƒ, applyConstraints: ƒ, …}
+page.js:171 INFO: Tried to stop track MediaStreamTrack {_dailyConstraints: {…}, _managedByDaily: true, _mediaTag: 'cam-audio', stop: ƒ, applyConstraints: ƒ, …}
+page.js:171 INFO: Tried to stop track MediaStreamTrack {_dailyConstraints: {…}, _managedByDaily: true, _mediaTag: 'cam-audio', stop: ƒ, applyConstraints: ƒ, …}
