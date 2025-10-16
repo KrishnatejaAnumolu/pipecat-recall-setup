@@ -4,5 +4,6 @@ This repository contains three ways of connecting to a simple Pipecat voice agen
 2. Connecting from client/src/direct/App.tsx - This uses a simple React app with a WebRTC connection to the server.
 3. Connecting from client/src/pipecat-library/App.tsx - This uses the Pipecat library to connect to the server.
 
-1 & 2 work both locally and in Recall.ai (https://www.recall.ai/). 
-3 works only locally. It does not work in Recall.ai
+#1 & #2 approaches work both in a normal browser and in Recall.ai (https://www.recall.ai/)
+
+#3 works only in normal browser. It fails to establish ICE connection in Recall.ai. Also, seeing an error `Uncaught (in promise) DOMException: Requested device not found` in console.
